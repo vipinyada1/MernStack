@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internal CSS</title>
+    <style>
+        * {
+            margin: 0px;
+        }
+
+        header {
+            padding-top: 30px;
+        }
+
+        header .logo {
+            width: 10%;
+            height: 20%;
+            float: left;
+            margin: left 30px;
+            padding-left: 18%;
+            font-size: 22px;
+            background-color:aquamarine;
+        }
+
+        header .mainmenu {
+            width: 35%;
+            float: left;
+            margin-left: 30px;
+            font-size: 22px;
+            padding-top: 3%;
+            background-color: aqua;
+        }
+
+        .mainmenu ul {
+            list-style-type: square;
+        }
+
+        .mainmenu ul li {
+            display: inline-block;
+            margin-left: 5px;
+            font-size: 24px;
+        }
+
+        .mainmenu ul li a {
+            color: black;
+            text-decoration: none;
+        }
+        header .phone
+        {
+            width:20%;float:left ;margin-left:30px;font-size:22px; padding-left: 40%; padding-bottom: 5%
+        }
+        middle {
+            padding-top: 10px;
+        }
+      middle .main
+      {
+        width:35%;float:left ;margin-left:30px; font-size:22px;height: 50px; padding-left: 20%;
+        background-color: black;
+      }
+      middle .m
+        footer
+        {
+            padding-top:100px;text-align: center;
+        }
+        footer .how
+        {
+            color: blue;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" />
+            <div style="clear: both;"></div>
+        </div>
+        <div class="mainmenu">
+            <ul>
+                <li> <a href="">Home</a></li>
+                <li> <a href="">About Us</a></li>
+                <li> <a href="">Owner-G</a></li>
+                <li> <a href="">Brokedr-G</a></li>
+                <li> <a href="">Rent</a></li>
+                <li> <a href="">Contact Us</a></li>
+                <li> <a href="">FAQ</a></li>
+            </ul>
+            <div style="clear: both;"></div>
+        </div>
+
+        <div class="phone">
+            <img src="images/phone.png " style="width:50px;height:50px;" />09424886635
+        </div>
+        <div style="clear: both;"></div>
+    </header>
+    <middle >
+        <div class="main">
+            <div style="padding-top:40px; font-size: 320%;">
+                Find Room|Flats|Hostel|PG
+                in easiest way
+            </div>
+            <div style="padding-top:40px; ">
+                <label for="What do you want search?"></label>
+
+                <select class ="menusearch">
+                    <option value="What do you want search?">What do you want search?</option>
+                    <option value="Room">Room</option>
+                    <option value="Flat">Flat</option>
+                    <option value="Hostal">Hostal</option>
+                    <option value="PG">PG</option>
+                    <option value="Bunglow">Bunglow</option>
+                </select>
+            </div><br>
+            <div>
+                <label for="Select"></label>
+                <select name="Select SubCategory" id="Select"
+                    style="border:2px solid black; width:300px;height: 60px;  font-size: 25px;">
+                    <option value="1">Select SubCategory</option>
+                    <optgroup label="Flat">
+                        <option value="1BHK">1BHK</option>
+                        <option value="2BHK">2BHK</option>
+                    </optgroup>
+                    <optgroup label="Hostal">
+                        <option value="1">Girls</option>
+                        <option value="2">Boys</option>
+                    </optgroup>
+                </select>
+                &nbsp;&nbsp;&nbsp;
+                <label for="location"></label>
+
+                <select style="border:2px solid black; width:300px; height: 60px; font-size: 25px;">
+                    <option value="Location?">Select Location</option>
+                    <option value="1">vijay Nagvar</option>
+                    <option value="2">Super Corridor</option>
+                    <option value="3">Bhswarkua</option>
+                    <option value="4">LIG</option>
+                    <option value="5">Geeta Bhawan</option>
+                </select>
+
+            </div>
+        </div>
+        <div style="width:25%;float:left;margin-left:30px; font-size:22px; padding-top: 2%; height: 15%;">
+            <img src="images/image.png" style="width:400px;height:500px;" />
+
+        </div>
+        <div style="clear: both;"></div>
+    </middle><br>
+
+    <footer >
+
+        <div class="how">
+            <h3> HOW IT WORK </h3>
+        </div><br>
+        <div style="font-size: 45px;">
+            <h2>Working Progress</h2>
+        </div><br>
+        <div>
+            <h2>Indore India Based Best Room Search Portal.</h2>
+        </div><br>
+    </footer>
+
+</body>
+
+</html>

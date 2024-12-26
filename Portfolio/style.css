@@ -1,0 +1,11 @@
+* {
+    margin: 0px;
+}
+body{
+    background-color: aquamarine;
+    background-repeat: no-repeat;
+}
+header div a {
+
+    font-size: 200%;
+}
